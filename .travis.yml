@@ -3,6 +3,6 @@ dist: xenial
 
 deploy:
   - provider: script
-    script: make build
+    script: make push
     on:
       tags: true
