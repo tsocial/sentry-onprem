@@ -1,0 +1,8 @@
+language: generic
+dist: xenial
+
+deploy:
+  - provider: script
+    script: make build
+    on:
+      tags: true

@@ -1,4 +1,4 @@
-REPOSITORY?=sentry-onpremise
+REPOSITORY?=tsocial/sentry
 TAG?=latest
 
 OK_COLOR=\033[32;01m
