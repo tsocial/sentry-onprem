@@ -5,4 +5,5 @@ deploy:
   - provider: script
     script: make push
     on:
-      tags: true
+      branch:
+        - master
