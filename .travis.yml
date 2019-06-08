@@ -1,0 +1,9 @@
+language: generic
+dist: xenial
+
+deploy:
+  - provider: script
+    script: make push
+    on:
+      branch:
+        - master
