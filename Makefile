@@ -1,5 +1,5 @@
 REPOSITORY?=tsocial/sentry
-TAG?=$(TRAVIS_TAG)
+TAG?=9.1.1
 
 OK_COLOR=\033[32;01m
 NO_COLOR=\033[0m
